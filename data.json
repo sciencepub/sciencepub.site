@@ -1,0 +1,499 @@
+{
+  "cities": [
+    {
+      "name": "São Luís",
+      "state": "Maranhão",
+      "editions": 27
+    },
+    {
+      "name": "Florianópolis",
+      "state": "Santa Catarina",
+      "editions": 1
+    }
+  ],
+  "schedule": {
+    "ed2016": [
+      {
+        "title": "SciencePub #1",
+        "date": "27/10",
+        "venue": "Quiosque Brahma Chopp",
+        "city": "São Luís",
+        "state": "MA",
+        "time": "19h",
+        "speakers": [
+          {
+            "name": "Sérgio Brenha",
+            "img": "img/speakers/1.jpg",
+            "title": "Astronomia no Maranhão"
+          }
+        ]
+      },
+      {
+        "title": "SciencePub #2",
+        "date": "19/11",
+        "venue": "Quiosque Brahma Chopp",
+        "city": "São Luís",
+        "state": "MA",
+        "time": "16h30",
+        "speakers": [
+          {
+            "name": "Ewaldo Éder",
+            "img": "img/speakers/1.jpg",
+            "title": "Processamento de Sinais como uma ferramenta para o desenvolvimento do Maranhão"
+          }
+        ]
+      },
+      {
+        "title": "SciencePub #3",
+        "date": "17/12",
+        "venue": "Quiosque Brahma Chopp",
+        "city": "São Luís",
+        "state": "MA",
+        "time": "16h",
+        "speakers": [
+          {
+            "name": "Hérisson Chaves",
+            "img": "img/speakers/1.jpg",
+            "title": "Computação paralela em GPU: Uma alternativa na busca por desempenho"
+          }
+        ]
+      }
+    ],
+    "ed2017": [
+      {
+        "title": "SciencePub #4",
+        "date": "29/04",
+        "venue": "Quiosque Brahma Chopp",
+        "city": "São Luís",
+        "state": "MA",
+        "time": "16h",
+        "speakers": [
+          {
+            "name": "Ramon de Sá",
+            "img": "img/speakers/1.jpg",
+            "title": "OBAFIS: Despertando o interesse de futuros astrônomos"
+          }
+        ]
+      },
+      {
+        "title": "SciencePub #5",
+        "date": "20/05",
+        "venue": "Quiosque Brahma Chopp",
+        "city": "São Luís",
+        "state": "MA",
+        "time": "16h",
+        "speakers": [
+          {
+            "name": "Equipe Carcará",
+            "img": "img/speakers/1.jpg",
+            "title": "Introdução ao espaçomodelismo"
+          }
+        ]
+      },
+      {
+        "title": "SciencePub #6",
+        "date": "30/09",
+        "venue": "Quiosque Brahma Chopp",
+        "city": "São Luís",
+        "state": "MA",
+        "time": "16h30",
+        "speakers": [
+          {
+            "name": "Edvan Moreira",
+            "img": "img/speakers/1.jpg",
+            "title": "Modelagem computacional de nanoestruturas"
+          }
+        ]
+      },
+      {
+        "title": "SciencePub #7",
+        "date": "28/10",
+        "venue": "Quiosque Brahma Chopp",
+        "city": "São Luís",
+        "state": "MA",
+        "time": "15h30",
+        "speakers": [
+          {
+            "name": "Jherfson Castro",
+            "img": "img/speakers/1.jpg",
+            "title": "Modelagem computacional e baterias"
+          }
+        ]
+      },
+      {
+        "title": "SciencePub #8",
+        "date": "18/12",
+        "venue": "Recoleta Grill",
+        "city": "São Luís",
+        "state": "MA",
+        "time": "19h",
+        "speakers": [
+          {
+            "name": "Kayman Jhosef",
+            "img": "img/speakers/1.jpg",
+            "title": "Evolução estelar"
+          }
+        ]
+      }
+    ],
+    "ed2018": [
+      {
+        "title": "SciencePub #9",
+        "date": "29/01",
+        "venue": "Recoleta Grill",
+        "city": "São Luís",
+        "state": "MA",
+        "time": "18h30",
+        "speakers": [
+          {
+            "name": "Joel Félix",
+            "img": "img/speakers/1.jpg",
+            "title": "Espalhamento Raman"
+          }
+        ]
+      },
+      {
+        "title": "SciencePub #10",
+        "date": "24/02",
+        "venue": "Recoleta Grill",
+        "city": "São Luís",
+        "state": "MA",
+        "time": "16h",
+        "speakers": [
+          {
+            "name": "Caio Vinicius Caetano",
+            "img": "img/speakers/1.jpg",
+            "title": "Cromatografia líquida"
+          }
+        ]
+      },
+      {
+        "title": "SciencePub #11",
+        "date": "24/03",
+        "venue": "Recoleta Grill",
+        "city": "São Luís",
+        "state": "MA",
+        "time": "16h",
+        "speakers": [
+          {
+            "name": "Rayanne França",
+            "img": "img/speakers/1.jpg",
+            "title": "Grafoscopia: Uma introdução às ciências forenses"
+          }
+        ]
+      },
+      {
+        "title": "SciencePub #12",
+        "date": "28/04",
+        "venue": "Recoleta Grill",
+        "city": "São Luís",
+        "state": "MA",
+        "time": "17h",
+        "speakers": [
+          {
+            "name": "Felipe Peixoto Poulis",
+            "img": "img/speakers/1.jpg",
+            "title": "Ondas gravitacionais e Relatividade Geral"
+          }
+        ]
+      },
+      {
+        "title": "SciencePub #13",
+        "date": "26/05",
+        "venue": "Cidade Velha Pub",
+        "city": "São Luís",
+        "state": "MA",
+        "time": "19h",
+        "speakers": [
+          {
+            "name": "Tavares Júnior",
+            "img": "img/speakers/1.jpg",
+            "title": "Astrofotografia"
+          }
+        ]
+      },
+      {
+        "title": "SciencePub #14",
+        "date": "16/06",
+        "venue": "Cidade Velha Pub",
+        "city": "São Luís",
+        "state": "MA",
+        "time": "17h30",
+        "speakers": [
+          {
+            "name": "Joelson Reis",
+            "img": "img/speakers/1.jpg",
+            "title": "Produção de um eletrólito sólido para baterias recarregáveis"
+          },
+          {
+            "name": "Dayse Caldas",
+            "img": "img/speakers/1.jpg",
+            "title": "Acessibilidade e tecnologia assistiva no ambiente educacional"
+          }
+        ]
+      },
+      {
+        "title": "SciencePub #15",
+        "date": "14/07",
+        "venue": "Cidade Velha Pub",
+        "city": "São Luís",
+        "state": "MA",
+        "time": "17h",
+        "speakers": [
+          {
+            "name": "Thaynara Lima",
+            "img": "img/speakers/1.jpg",
+            "title": "Nanopartículas magnéticas aplicadas em Hipertermia"
+          },
+          {
+            "name": "André Felipe",
+            "img": "img/speakers/1.jpg",
+            "title": "Introdução à robótica"
+          }
+        ]
+      },
+      {
+        "title": "SciencePub #16",
+        "date": "18/08",
+        "venue": "Cidade Velha Pub",
+        "city": "São Luís",
+        "state": "MA",
+        "time": "17h30",
+        "speakers": [
+          {
+            "name": "Salete Farias",
+            "img": "img/speakers/1.jpg",
+            "title": "Mulheres na ciência"
+          },
+          {
+            "name": "Anax Souza",
+            "img": "img/speakers/1.jpg",
+            "title": "Aerodinâmica e aplicações"
+          }
+        ]
+      },
+      {
+        "title": "SciencePub #17",
+        "date": "15/09",
+        "venue": "Cidade Velha Pub",
+        "city": "São Luís",
+        "state": "MA",
+        "time": "17h30",
+        "speakers": [
+          {
+            "name": "Heric Hossoe",
+            "img": "img/speakers/1.jpg",
+            "title": "Poder público, academia e sociedade"
+          }
+        ]
+      },
+      {
+        "title": "SciencePub #18",
+        "date": "13/10",
+        "venue": "Cidade Velha Pub",
+        "city": "São Luís",
+        "state": "MA",
+        "time": "17h30",
+        "speakers": [
+          {
+            "name": "David Silva",
+            "img": "img/speakers/1.jpg",
+            "title": "Por dentro do espaço: Geoinformação"
+          },
+          {
+            "name": "Carlos Eduardo Portela",
+            "img": "img/speakers/1.jpg",
+            "title": "Astronomia: do micro ao macro Universo"
+          }
+        ]
+      },
+      {
+        "title": "SciencePub #19",
+        "date": "10/11",
+        "venue": "Cidade Velha Pub",
+        "city": "São Luís",
+        "state": "MA",
+        "time": "17h",
+        "speakers": [
+          {
+            "name": "Ten. Huxley Bruno",
+            "img": "img/speakers/1.jpg",
+            "title": "Consolidação do Centro Espacial de Alcântara"
+          },
+          {
+            "name": "Jorge Nunes",
+            "img": "img/speakers/1.jpg",
+            "title": "A diversidade marinha negligenciada do Maranhão"
+          }
+        ]
+      },
+      {
+        "title": "SciencePub #20",
+        "date": "22/12",
+        "venue": "Cidade Velha Pub",
+        "city": "São Luís",
+        "state": "MA",
+        "time": "17h30",
+        "speakers": [
+          {
+            "name": "Jaldyr Varela",
+            "img": "img/speakers/1.jpg",
+            "title": "Estrelas: nascimento, vida e morte"
+          }
+        ]
+      }
+    ],
+    "ed2019": [
+      {
+        "title": "SciencePub #21",
+        "date": "16/01",
+        "venue": "Beer Tap",
+        "city": "São Luís",
+        "state": "MA",
+        "time": "17h",
+        "speakers": [
+          {
+            "name": "Wendell Monteiro",
+            "img": "img/speakers/1.jpg",
+            "title": "Os segredos dos eclipses"
+          },
+          {
+            "name": "Tainá Constância",
+            "img": "img/speakers/1.jpg",
+            "title": "Evolução e a história da vida na Terra"
+          }
+        ]
+      },
+      {
+        "title": "SciencePub #22",
+        "date": "14/02",
+        "venue": "Beer Tap",
+        "city": "São Luís",
+        "state": "MA",
+        "time": "17h",
+        "speakers": [
+          {
+            "name": "Jhonatan Almada",
+            "img": "img/speakers/1.jpg",
+            "title": "Educação, ciência e juventude: experiências transformadoras de jovens maranhenses"
+          }
+        ]
+      },
+      {
+        "title": "SciencePub #23",
+        "date": "23/03",
+        "venue": "Beer Tap",
+        "city": "São Luís",
+        "state": "MA",
+        "time": "16h",
+        "speakers": [
+          {
+            "name": "Davi Telles",
+            "img": "img/speakers/1.jpg",
+            "title": "O futuro do Inova Maranhão"
+          }
+        ]
+      },
+      {
+        "title": "SciencePub #24",
+        "date": "27/04",
+        "venue": "Beer Tap",
+        "city": "São Luís",
+        "state": "MA",
+        "time": "16h",
+        "speakers": [
+          {
+            "name": "Adalto Rodrigues",
+            "img": "img/speakers/1.jpg",
+            "title": "Einstein: GPS, ondas gravitacionais e buracos negros"
+          },
+          {
+            "name": "Ruana Lima",
+            "img": "img/speakers/1.jpg",
+            "title": "Biofísica: A Física no microuniverso das células"
+          }
+        ]
+      },
+      {
+        "title": "SciencePub #25",
+        "date": "25/05",
+        "venue": "Beer Tap",
+        "city": "São Luís",
+        "state": "MA",
+        "time": "16h",
+        "speakers": [
+          {
+            "name": "Fernando Moucherek",
+            "img": "img/speakers/1.jpg",
+            "title": "Um olhar sobre o eclipse de 1919"
+          },
+          {
+            "name": "Márcio Tavares",
+            "img": "img/speakers/1.jpg",
+            "title": "As bases teóricas da relatividade restrita"
+          }
+        ]
+      },
+      {
+        "title": "SciencePub #26 - Asteroid Day",
+        "date": "29/06",
+        "venue": "Beer Tap",
+        "city": "São Luís",
+        "state": "MA",
+        "time": "16h",
+        "speakers": [
+          {
+            "name": "Ricardson Vieira",
+            "img": "img/speakers/1.jpg",
+            "title": "Asteroides"
+          },
+          {
+            "name": "Andreia de Oliveira",
+            "img": "img/speakers/1.jpg",
+            "title": "Crateras de impacto"
+          }
+        ]
+      },
+      {
+        "title": "SciencePub #27",
+        "date": "13/07",
+        "venue": "Beer Tap",
+        "city": "São Luís",
+        "state": "MA",
+        "time": "16h",
+        "speakers": [
+          {
+            "name": "Isabel Araújo",
+            "img": "img/speakers/1.jpg",
+            "title": "Foguetes experimentais"
+          },
+          {
+            "name": "José Marques Neto",
+            "img": "img/speakers/1.jpg",
+            "title": "Apollo 11: 50 anos do homem na Lua"
+          }
+        ]
+      },
+      {
+        "title": "SciencePub Floripa",
+        "date": "23/07",
+        "venue": "Bendita Gula",
+        "city": "Florianópolis",
+        "state": "SC",
+        "time": "19h",
+        "speakers": [
+          {
+            "name": "Alexandre Amorim",
+            "img": "img/speakers/1.jpg",
+            "title": "Observando eclipses"
+          },
+          {
+            "name": "Frederico de Freitas Taves",
+            "img": "img/speakers/1.jpg",
+            "title": "Entropia do Universo"
+          }
+        ]
+      }
+    ]
+  }
+}
