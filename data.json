@@ -38,7 +38,7 @@
         "speakers": [
           {
             "name": "Ewaldo Éder",
-            "img": "img/speakers/1.jpg",
+            "img": "img/speakers/ewaldo_eder.jpg",
             "title": "Processamento de Sinais como uma ferramenta para o desenvolvimento do Maranhão"
           }
         ]
@@ -53,7 +53,7 @@
         "speakers": [
           {
             "name": "Hérisson Chaves",
-            "img": "img/speakers/1.jpg",
+            "img": "img/speakers/herisson_chaves.jpg",
             "title": "Computação paralela em GPU: Uma alternativa na busca por desempenho"
           }
         ]
@@ -70,7 +70,7 @@
         "speakers": [
           {
             "name": "Ramon de Sá",
-            "img": "img/speakers/1.jpg",
+            "img": "img/speakers/ramon_sa.jpg",
             "title": "OBAFIS: Despertando o interesse de futuros astrônomos"
           }
         ]
@@ -100,7 +100,7 @@
         "speakers": [
           {
             "name": "Edvan Moreira",
-            "img": "img/speakers/1.jpg",
+            "img": "img/speakers/edvan_moreira.jpg",
             "title": "Modelagem computacional de nanoestruturas"
           }
         ]
@@ -130,7 +130,7 @@
         "speakers": [
           {
             "name": "Kayman Jhosef",
-            "img": "img/speakers/1.jpg",
+            "img": "img/speakers/khayman_josef.jpg",
             "title": "Evolução estelar"
           }
         ]
@@ -147,7 +147,7 @@
         "speakers": [
           {
             "name": "Joel Félix",
-            "img": "img/speakers/1.jpg",
+            "img": "img/speakers/joel_felix.jpg",
             "title": "Espalhamento Raman"
           }
         ]
@@ -222,7 +222,7 @@
         "speakers": [
           {
             "name": "Joelson Reis",
-            "img": "img/speakers/1.jpg",
+            "img": "img/speakers/joelson_reis.jpg",
             "title": "Produção de um eletrólito sólido para baterias recarregáveis"
           },
           {
@@ -242,12 +242,12 @@
         "speakers": [
           {
             "name": "Thaynara Lima",
-            "img": "img/speakers/1.jpg",
+            "img": "img/speakers/thaynara_lima.jpg",
             "title": "Nanopartículas magnéticas aplicadas em Hipertermia"
           },
           {
             "name": "André Felipe",
-            "img": "img/speakers/1.jpg",
+            "img": "img/speakers/andre_felipe.jpg",
             "title": "Introdução à robótica"
           }
         ]
@@ -262,12 +262,12 @@
         "speakers": [
           {
             "name": "Salete Farias",
-            "img": "img/speakers/1.jpg",
+            "img": "img/speakers/salete_farias.jpg",
             "title": "Mulheres na ciência"
           },
           {
             "name": "Anax Souza",
-            "img": "img/speakers/1.jpg",
+            "img": "img/speakers/anax_souza.jpg",
             "title": "Aerodinâmica e aplicações"
           }
         ]
@@ -282,7 +282,7 @@
         "speakers": [
           {
             "name": "Heric Hossoe",
-            "img": "img/speakers/1.jpg",
+            "img": "img/speakers/heric_hossoe.jpg",
             "title": "Poder público, academia e sociedade"
           }
         ]
@@ -297,12 +297,12 @@
         "speakers": [
           {
             "name": "David Silva",
-            "img": "img/speakers/1.jpg",
+            "img": "img/speakers/david_silva.jpg",
             "title": "Por dentro do espaço: Geoinformação"
           },
           {
             "name": "Carlos Eduardo Portela",
-            "img": "img/speakers/1.jpg",
+            "img": "img/speakers/carlos_eduardo_portela.jpg",
             "title": "Astronomia: do micro ao macro Universo"
           }
         ]
@@ -337,7 +337,7 @@
         "speakers": [
           {
             "name": "Jaldyr Varela",
-            "img": "img/speakers/1.jpg",
+            "img": "img/speakers/jaldyr_varela.jpg",
             "title": "Estrelas: nascimento, vida e morte"
           }
         ]
