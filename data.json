@@ -23,7 +23,7 @@
         "speakers": [
           {
             "name": "Sérgio Brenha",
-            "img": "img/speakers/1.jpg",
+            "img": "img/speakers/sergio_brenha.jpg",
             "title": "Astronomia no Maranhão"
           }
         ]
@@ -85,7 +85,7 @@
         "speakers": [
           {
             "name": "Equipe Carcará",
-            "img": "img/speakers/1.jpg",
+            "img": "img/speakers/ianara_pacheco.jpg",
             "title": "Introdução ao espaçomodelismo"
           }
         ]
@@ -115,7 +115,7 @@
         "speakers": [
           {
             "name": "Jherfson Castro",
-            "img": "img/speakers/1.jpg",
+            "img": "img/speakers/jherfson_castro.jpg",
             "title": "Modelagem computacional e baterias"
           }
         ]
@@ -162,7 +162,7 @@
         "speakers": [
           {
             "name": "Caio Vinicius Caetano",
-            "img": "img/speakers/1.jpg",
+            "img": "img/speakers/caio_vinicius.jpg",
             "title": "Cromatografia líquida"
           }
         ]
@@ -177,7 +177,7 @@
         "speakers": [
           {
             "name": "Rayanne França",
-            "img": "img/speakers/1.jpg",
+            "img": "img/speakers/rayanne_franca.jpg",
             "title": "Grafoscopia: Uma introdução às ciências forenses"
           }
         ]
@@ -192,7 +192,7 @@
         "speakers": [
           {
             "name": "Felipe Peixoto Poulis",
-            "img": "img/speakers/1.jpg",
+            "img": "img/speakers/felipe_poulis.jpg",
             "title": "Ondas gravitacionais e Relatividade Geral"
           }
         ]
@@ -207,7 +207,7 @@
         "speakers": [
           {
             "name": "Tavares Júnior",
-            "img": "img/speakers/1.jpg",
+            "img": "img/speakers/tavares_jr.jpg",
             "title": "Astrofotografia"
           }
         ]
@@ -226,8 +226,8 @@
             "title": "Produção de um eletrólito sólido para baterias recarregáveis"
           },
           {
-            "name": "Dayse Caldas",
-            "img": "img/speakers/1.jpg",
+            "name": "Dayse Yanne Caldas",
+            "img": "img/speakers/dayse_caldas.jpg",
             "title": "Acessibilidade e tecnologia assistiva no ambiente educacional"
           }
         ]
@@ -317,12 +317,12 @@
         "speakers": [
           {
             "name": "Ten. Huxley Bruno",
-            "img": "img/speakers/1.jpg",
+            "img": "img/speakers/huxley_bruno.jpg",
             "title": "Consolidação do Centro Espacial de Alcântara"
           },
           {
             "name": "Jorge Nunes",
-            "img": "img/speakers/1.jpg",
+            "img": "img/speakers/jorge_nunes.jpg",
             "title": "A diversidade marinha negligenciada do Maranhão"
           }
         ]
@@ -354,12 +354,12 @@
         "speakers": [
           {
             "name": "Wendell Monteiro",
-            "img": "img/speakers/1.jpg",
+            "img": "img/speakers/wendell_monteiro.jpg",
             "title": "Os segredos dos eclipses"
           },
           {
             "name": "Tainá Constância",
-            "img": "img/speakers/1.jpg",
+            "img": "img/speakers/taina_constancia.jpg",
             "title": "Evolução e a história da vida na Terra"
           }
         ]
@@ -374,7 +374,7 @@
         "speakers": [
           {
             "name": "Jhonatan Almada",
-            "img": "img/speakers/1.jpg",
+            "img": "img/speakers/jhonatan_almada.jpg",
             "title": "Educação, ciência e juventude: experiências transformadoras de jovens maranhenses"
           }
         ]
@@ -389,7 +389,7 @@
         "speakers": [
           {
             "name": "Davi Telles",
-            "img": "img/speakers/1.jpg",
+            "img": "img/speakers/davi_telles.jpg",
             "title": "O futuro do Inova Maranhão"
           }
         ]
@@ -404,12 +404,12 @@
         "speakers": [
           {
             "name": "Adalto Rodrigues",
-            "img": "img/speakers/1.jpg",
+            "img": "img/speakers/adalto_rodrigues.jpg",
             "title": "Einstein: GPS, ondas gravitacionais e buracos negros"
           },
           {
             "name": "Ruana Lima",
-            "img": "img/speakers/1.jpg",
+            "img": "img/speakers/ruana_lima.jpg",
             "title": "Biofísica: A Física no microuniverso das células"
           }
         ]
@@ -424,12 +424,12 @@
         "speakers": [
           {
             "name": "Fernando Moucherek",
-            "img": "img/speakers/1.jpg",
+            "img": "img/speakers/fernando_moucherek.jpg",
             "title": "Um olhar sobre o eclipse de 1919"
           },
           {
             "name": "Márcio Tavares",
-            "img": "img/speakers/1.jpg",
+            "img": "img/speakers/marcio_tavares.jpg",
             "title": "As bases teóricas da relatividade restrita"
           }
         ]
@@ -444,12 +444,12 @@
         "speakers": [
           {
             "name": "Ricardson Vieira",
-            "img": "img/speakers/1.jpg",
+            "img": "img/speakers/ricardson_vieira.jpg",
             "title": "Asteroides"
           },
           {
             "name": "Andreia de Oliveira",
-            "img": "img/speakers/1.jpg",
+            "img": "img/speakers/andreia_oliveira.jpg",
             "title": "Crateras de impacto"
           }
         ]
@@ -464,12 +464,12 @@
         "speakers": [
           {
             "name": "Isabel Araújo",
-            "img": "img/speakers/1.jpg",
+            "img": "img/speakers/isabel_araujo.jpg",
             "title": "Foguetes experimentais"
           },
           {
             "name": "José Marques Neto",
-            "img": "img/speakers/1.jpg",
+            "img": "img/speakers/jose_marques_neto.jpg",
             "title": "Apollo 11: 50 anos do homem na Lua"
           }
         ]
@@ -484,12 +484,12 @@
         "speakers": [
           {
             "name": "Alexandre Amorim",
-            "img": "img/speakers/1.jpg",
+            "img": "img/speakers/alexandre_amorim.jpg",
             "title": "Observando eclipses"
           },
           {
             "name": "Frederico de Freitas Taves",
-            "img": "img/speakers/1.jpg",
+            "img": "img/speakers/frederico_taves.jpg",
             "title": "Entropia do Universo"
           }
         ]
