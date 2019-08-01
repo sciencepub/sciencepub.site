@@ -122,19 +122,18 @@
 
             <ul class="nav nav-tabs" role="tablist">
                 <li class="nav-item">
-                    <a class="nav-link" href="#ed-2016" role="tab" data-toggle="tab">2016</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#ed-2017" role="tab" data-toggle="tab">2017</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#ed-2018" role="tab" data-toggle="tab">2018</a>
+                    <a class="nav-link" href="#pasteditions" role="tab" data-toggle="tab">Anteriores</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link active" href="#ed-2019" role="tab" data-toggle="tab">2019</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#upcoming" role="tab" data-toggle="tab">Próximas</a>
+                </li>
             </ul>
             <div class="tab-content row justify-content-center">
+                <div role="tabpanel" class="col-lg-9 tab-pane fade" id="pasteditions">
+                </div>
                 <div role="tabpanel" class="col-lg-9 tab-pane fade" id="ed-2016">
                 </div>
                 <div role="tabpanel" class="col-lg-9 tab-pane fade" id="ed-2017">
@@ -143,8 +142,9 @@
                 </div>
                 <div role="tabpanel" class="col-lg-9 tab-pane fade show active" id="ed-2019">
                 </div>
+                <div role="tabpanel" class="col-lg-9 tab-pane fade" id="upcoming">
+                </div>
             </div>
-        </div>
     </section>
 
     <!--==========================
@@ -465,6 +465,29 @@
 <script src="js/custom.js"></script>
 </body>
 <script type="application/javascript">
+    function yearStats(editions) {
+        var stats = {
+            editions: editions.length,
+            speakers: editions
+                .map(c => c.speakers.length)
+                .reduce((c, e) => c + e, 0)
+        };
+
+        var html = '<p>' + stats.speakers.toString() + ' palestrantes em ' + stats.editions.toString() + ' edições' + '</p>';
+        return html;
+    }
+
+    function pastEditions(editions, year) {
+        var stats = yearStats(editions);
+        var html = '<div class="section-header">' +
+            '<h2>' + year.toString() + '</h2>' + yearStats(editions) +
+            '</div>';
+
+        html += buildScheduleItens(editions);
+
+        return html;
+    }
+
     function buildScheduleItens(events) {
         var html = '';
 
@@ -478,6 +501,10 @@
                 collumSize = "col-md-8";
             }
 
+            if (edition.speakers.length === 0) {
+                speakers = '<div class="col-md-8"><div class="speaker"></div><h4>A definir</h4><h6>A definir</h6></div>';
+            }
+
             html += '<div class="row schedule-item">' +
                 '<div class="col-md-3"><h4>' + edition.title + '</h4>' +
                 '<h6>' + edition.venue + '</h6>' +
@@ -487,8 +514,8 @@
                 '<time>' + edition.time + '</time></div>';
 
             edition.speakers.forEach(function (speaker) {
-                speakers += '<div class="' + collumSize + '"><div class="speaker">\n' +
-                    '<img src="' + speaker.img + '" alt="' + speaker.name + '">\n' +
+                speakers += '<div class="' + collumSize + '"><div class="speaker">' +
+                    '<img src="' + speaker.img + '" alt="' + speaker.name + '">' +
                     '</div><h4>' + speaker.name + '</h4><h6>' + speaker.title + '</h6>' +
                     '</div>'
             });
@@ -505,10 +532,10 @@
         editionsElement = document.getElementById("spEditions");
         citiesElement = document.getElementById("spCities");
         statesElement = document.getElementById("spStates");
-        ed2016 = document.getElementById("ed-2016");
-        ed2017 = document.getElementById("ed-2017");
-        ed2018 = document.getElementById("ed-2018");
         ed2019 = document.getElementById("ed-2019");
+        past = document.getElementById("pasteditions");
+        upcoming = document.getElementById("upcoming");
+        var pasthtml = '';
 
         $.getJSON("data.json").done(function (json) {
             editionsElement.innerHTML = json.cities
@@ -518,11 +545,16 @@
 
             statesElement.innerHTML = [...new Set(json.cities.map(c => c.state))].length;
 
-            // 2016 editions
-            ed2016.innerHTML = buildScheduleItens(json.schedule.ed2016);
-            ed2017.innerHTML = buildScheduleItens(json.schedule.ed2017);
-            ed2018.innerHTML = buildScheduleItens(json.schedule.ed2018);
-            ed2019.innerHTML = buildScheduleItens(json.schedule.ed2019);
+            // Current Year editions
+            var statsCurrent = '<div class="section-header">' + yearStats(json.schedule.ed2019) + '</div>';
+            ed2019.innerHTML = statsCurrent + buildScheduleItens(json.schedule.ed2019);
+
+            pasthtml += pastEditions(json.schedule.ed2018, 2018);
+            pasthtml += pastEditions(json.schedule.ed2017, 2017);
+            pasthtml += pastEditions(json.schedule.ed2016, 2016);
+
+            past.innerHTML = pasthtml;
+            upcoming.innerHTML = buildScheduleItens(json.schedule.upcoming.reverse());
         });
     });
 </script>

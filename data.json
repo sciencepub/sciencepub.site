@@ -475,7 +475,7 @@
         ]
       },
       {
-        "title": "SciencePub Floripa",
+        "title": "SciencePub Florianópolis",
         "date": "23/07",
         "venue": "Bendita Gula",
         "city": "Florianópolis",
@@ -488,9 +488,31 @@
             "title": "Observando eclipses"
           },
           {
-            "name": "Frederico de Freitas Taves",
+            "name": "Frederico Taves",
             "img": "img/speakers/frederico_taves.jpg",
             "title": "Entropia do Universo"
+          }
+        ]
+      }
+    ],
+    "upcoming": [
+      {
+        "title": "SciencePub #28",
+        "date": "10/08",
+        "venue": "Beer Tap",
+        "city": "São Luís",
+        "state": "MA",
+        "time": "17h",
+        "speakers": [
+          {
+            "name": "Rogério Moreira Lima",
+            "img": "img/speakers/rogerio_moreira_lima.jpg",
+            "title": "Desmitificando o 5G"
+          },
+          {
+            "name": "A definir",
+            "img": "img/speakers/1-male.png",
+            "title": "A definir"
           }
         ]
       }
