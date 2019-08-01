@@ -117,7 +117,7 @@
         <div class="container wow fadeInUp">
             <div class="section-header">
                 <h2>Edições</h2>
-                <p>Edições anteriores e futuras do SciencePub</p>
+                <p id="editions-description"></p>
             </div>
 
             <ul class="nav nav-tabs" role="tablist">
@@ -156,7 +156,7 @@
 
             <div class="section-header">
                 <h2>Local</h2>
-                <p>Locais que recebem o SciencePub</p>
+                <p>Saiba onde acontece o happy hour científico em sua cidade!</p>
             </div>
 
             <div class="row no-gutters">
@@ -236,6 +236,7 @@
         <div class="container">
             <div class="section-header">
                 <h2>Parceiros</h2>
+                <p>Empresas, grupos e associações que nos ajudam a levar ciência para o bar!</p>
             </div>
 
             <div class="row no-gutters supporters-wrap clearfix">
@@ -304,6 +305,7 @@
         <div class="container">
             <div class="section-header">
                 <h2>Perguntas frequentes</h2>
+                <p>Ficou com alguma dúvida ? A gente responde!</p>
             </div>
             <div class="row justify-content-center">
                 <div class="col-lg-9">
@@ -367,8 +369,10 @@
                                 <i class="fa fa-minus-circle"></i></a>
                             <div id="faq4" class="collapse" data-parent="#faq-list">
                                 <p>
-                                    Queremos levar a ciência para cada vez mais pessoas! Vai ser uma honra levar o happy hour científico para a sua cidade!
-                                    Entre em contato com a gente por telefone, mensagem ou email e iremos auxiliar você na organização do SciencePub na sua cidade.
+                                    Queremos levar a ciência para cada vez mais pessoas! Vai ser uma honra levar o happy
+                                    hour científico para a sua cidade!
+                                    Entre em contato com a gente por telefone, mensagem ou email e iremos auxiliar você
+                                    na organização do SciencePub na sua cidade.
                                 </p>
                             </div>
                         </li>
@@ -474,18 +478,37 @@
 <script src="js/custom.js"></script>
 </body>
 <script type="application/javascript">
-    function yearStats(editions) {
-        var stats = {
+    /**
+     * stats by period
+     * @param editions
+     * @returns {{editions: *, speakers: number}}
+     */
+    function statsResumed(editions) {
+        return {
             editions: editions.length,
             speakers: editions
                 .map(c => c.speakers.length)
                 .reduce((c, e) => c + e, 0)
         };
+    }
 
+    /**
+     * HTML for a year
+     * @param editions
+     * @returns {string}
+     */
+    function yearStats(editions) {
+        var stats = statsResumed(editions);
         var html = '<p>' + stats.speakers.toString() + ' palestrantes em ' + stats.editions.toString() + ' edições' + '</p>';
         return html;
     }
 
+    /**
+     * Past editions
+     * @param editions
+     * @param year
+     * @returns {string}
+     */
     function pastEditions(editions, year) {
         var stats = yearStats(editions);
         var html = '<div class="section-header">' +
@@ -497,6 +520,11 @@
         return html;
     }
 
+    /**
+     * Build schedule itens for a year
+     * @param events
+     * @returns {string}
+     */
     function buildScheduleItens(events) {
         var html = '';
 
@@ -537,6 +565,30 @@
 
     }
 
+    /**
+     * All stats including the current year
+     * @param json
+     * @returns {string}
+     */
+    function allStats(json) {
+        var years = []
+        years.push(statsResumed(json.schedule.ed2016));
+        years.push(statsResumed(json.schedule.ed2017));
+        years.push(statsResumed(json.schedule.ed2018));
+        years.push(statsResumed(json.schedule.ed2019));
+
+        var fullStats = {
+            editions: years
+                .map(c => c.editions)
+                .reduce((c, e) => c + e, 0),
+            speakers: years
+                .map(c => c.speakers)
+                .reduce((c, e) => c + e, 0)
+        };
+
+        return '<p>Já recebemos ' + fullStats.speakers.toString() + ' palestrantes em ' + fullStats.editions.toString() + ' edições do SciencePub!' + '</p>';
+    }
+
     document.addEventListener("DOMContentLoaded", function (event) {
         editionsElement = document.getElementById("spEditions");
         citiesElement = document.getElementById("spCities");
@@ -544,6 +596,7 @@
         ed2019 = document.getElementById("ed-2019");
         past = document.getElementById("pasteditions");
         upcoming = document.getElementById("upcoming");
+        editionsDescription = document.getElementById("editions-description");
         var pasthtml = '';
 
         $.getJSON("data.json").done(function (json) {
@@ -555,14 +608,14 @@
             statesElement.innerHTML = [...new Set(json.cities.map(c => c.state))].length;
 
             // Current Year editions
-            var statsCurrent = '<div class="section-header">' + yearStats(json.schedule.ed2019) + '</div>';
-            ed2019.innerHTML = statsCurrent + buildScheduleItens(json.schedule.ed2019);
+            ed2019.innerHTML = buildScheduleItens(json.schedule.ed2019);
 
             pasthtml += pastEditions(json.schedule.ed2018, 2018);
             pasthtml += pastEditions(json.schedule.ed2017, 2017);
             pasthtml += pastEditions(json.schedule.ed2016, 2016);
 
             past.innerHTML = pasthtml;
+            editionsDescription.innerHTML = allStats(json);
             upcoming.innerHTML = buildScheduleItens(json.schedule.upcoming.reverse());
         });
     });
