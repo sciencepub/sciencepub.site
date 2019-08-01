@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f3d2222-bf50-47e0-ac9b-3fbdd6b84d9a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/gallery/pic01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/gallery/pic01.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/gallery/pic02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/gallery/pic02.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/gallery/pic03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/gallery/pic03.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/gallery/pic04.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/gallery/pic04.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/gallery/pic05.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/gallery/pic05.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/gallery/pic07.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/gallery/pic07.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/data.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,7 +20,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
@@ -62,11 +55,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/data.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7770">
-              <caret line="518" column="5" selection-start-line="518" selection-start-column="5" selection-end-line="518" selection-end-column="5" />
+            <state relative-caret-position="515">
+              <caret line="515" column="11" lean-forward="true" selection-start-line="515" selection-start-column="11" selection-end-line="515" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -122,9 +115,9 @@
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/js/custom.js" />
         <option value="$PROJECT_DIR$/readme.md" />
-        <option value="$PROJECT_DIR$/data.json" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/data.json" />
       </list>
     </option>
   </component>
@@ -148,17 +141,6 @@
             <path>
               <item name="sciencepub-site" type="b2602c69:ProjectViewProjectNode" />
               <item name="sciencepub-site" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sciencepub-site" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sciencepub-site" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sciencepub-site" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sciencepub-site" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="gallery" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -214,18 +196,18 @@
       <workItem from="1564607494076" duration="6309000" />
       <workItem from="1564615824940" duration="12227000" />
       <workItem from="1564668149296" duration="901000" />
-      <workItem from="1564695343977" duration="1340000" />
+      <workItem from="1564695343977" duration="1736000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51525000" />
+    <option name="totallyTimeSpent" value="51921000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1366" y="0" width="1920" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18157615" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18157615" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -238,7 +220,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49733758" visible="true" weight="0.32842106" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49733758" visible="true" weight="0.32842106" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5026624" side_tool="true" weight="0.2" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -371,17 +353,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7770">
-          <caret line="518" column="5" selection-start-line="518" selection-start-column="5" selection-end-line="518" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="515" column="11" lean-forward="true" selection-start-line="515" selection-start-column="11" selection-end-line="515" selection-end-column="11" />
         </state>
       </provider>
     </entry>
