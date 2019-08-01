@@ -22,7 +22,8 @@ a {
 
 a:hover,
 a:active,
-a:focus {
+a:focus,
+a:visited {
     color: #f8234a;
     outline: none;
     text-decoration: none;
@@ -459,6 +460,10 @@ body.mobile-nav-active #mobile-nav {
 
 body.mobile-nav-active #mobile-nav-toggle {
     color: #fff;
+}
+
+.txt-link {
+
 }
 
 /*--------------------------------------------------------------
@@ -1123,6 +1128,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #faq #faq-list li {
     border-bottom: 1px solid #ddd;
+    text-align: justify;
 }
 
 #faq #faq-list a {
@@ -1134,6 +1140,15 @@ body.mobile-nav-active #mobile-nav-toggle {
     line-height: 24px;
     font-weight: 600;
     padding-right: 20px;
+}
+
+.txt-link {
+    margin: 0;
+    padding-right: 0;
+}
+
+#faq #faq-list a .txt-link {
+    display: inline;
 }
 
 #faq #faq-list i {
