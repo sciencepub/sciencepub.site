@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/index.html" line="325" />
+    <bookmark url="file://$PROJECT_DIR$/index.html" line="319" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f3d2222-bf50-47e0-ac9b-3fbdd6b84d9a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/data.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,60 +20,22 @@
       <executable />
     </execution>
   </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/index.html">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="405">
-                    <caret line="106" column="154" lean-forward="true" selection-start-line="106" selection-start-column="154" selection-end-line="106" selection-end-column="154" />
-                    <folding>
-                      <element signature="n#style#0;n#ul#0;n#nav#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                      <element signature="n#style#0;n#h1#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                      <element signature="n#style#0;n#h3#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                      <element signature="n#style#0;n#h2#0;n#div#0;n#div#1;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                      <element signature="n#style#0;n#h3#0;n#div#0;n#div#1;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                      <element signature="n#style#0;n#h2#0;n#div#1;n#div#1;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                      <element signature="n#style#0;n#h3#0;n#div#1;n#div#1;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                      <element signature="n#style#0;n#h2#0;n#div#2;n#div#1;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                      <element signature="n#style#0;n#h3#0;n#div#2;n#div#1;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                      <element signature="n#style#0;n#iframe#0;n#div#0;n#div#1;n#div#0;n#section#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                      <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#section#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                      <element signature="n#style#0;n#iframe#0;n#div#0;n#div#2;n#div#0;n#section#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                      <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#0;n#section#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                      <element signature="n#style#0;n#a#0;n#p#0;n#div#0;n#li#2;n#ul#0;n#div#0;n#div#1;n#div#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                      <element signature="n#style#0;n#a#1;n#p#0;n#div#0;n#li#2;n#ul#0;n#div#0;n#div#1;n#div#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                      <element signature="n#style#0;n#a#2;n#p#0;n#div#0;n#li#2;n#ul#0;n#div#0;n#div#1;n#div#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                      <element signature="n#style#0;n#a#3;n#p#0;n#div#0;n#li#2;n#ul#0;n#div#0;n#div#1;n#div#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="1127" lean-forward="true" selection-start-line="1127" selection-end-line="1127" />
+            <state relative-caret-position="73">
+              <caret line="1142" column="1" lean-forward="true" selection-start-line="1142" selection-start-column="1" selection-end-line="1142" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/data.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="505" column="21" lean-forward="true" selection-start-line="505" selection-start-column="21" selection-end-line="505" selection-end-column="21" />
+            <state relative-caret-position="324">
+              <caret line="514" column="60" selection-start-line="514" selection-start-column="60" selection-end-line="514" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -213,11 +177,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52731000" />
+    <option name="totallyTimeSpent" value="53095000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="708" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.25755286" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -232,7 +195,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49733758" weight="0.53979236" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49733758" weight="0.05882353" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5026624" side_tool="true" weight="0.2" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -341,24 +304,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data.json">
+    <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="505" column="21" lean-forward="true" selection-start-line="505" selection-start-column="21" selection-end-line="505" selection-end-column="21" />
+        <state relative-caret-position="73">
+          <caret line="1142" column="1" lean-forward="true" selection-start-line="1142" selection-start-column="1" selection-end-line="1142" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/data.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="1127" lean-forward="true" selection-start-line="1127" selection-end-line="1127" />
+        <state relative-caret-position="324">
+          <caret line="514" column="60" selection-start-line="514" selection-start-column="60" selection-end-line="514" selection-end-column="60" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="106" column="154" lean-forward="true" selection-start-line="106" selection-start-column="154" selection-end-line="106" selection-end-column="154" />
+        <state relative-caret-position="150">
+          <caret line="150" column="38" selection-start-line="150" selection-start-column="38" selection-end-line="150" selection-end-column="38" />
           <folding>
             <element signature="n#style#0;n#ul#0;n#nav#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h1#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -377,6 +340,7 @@
             <element signature="n#style#0;n#a#1;n#p#0;n#div#0;n#li#2;n#ul#0;n#div#0;n#div#1;n#div#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#2;n#p#0;n#div#0;n#li#2;n#ul#0;n#div#0;n#div#1;n#div#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#3;n#p#0;n#div#0;n#li#2;n#ul#0;n#div#0;n#div#1;n#div#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#23154#23160#0" expanded="true" />
           </folding>
         </state>
       </provider>
