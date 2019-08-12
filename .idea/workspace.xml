@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7f3d2222-bf50-47e0-ac9b-3fbdd6b84d9a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,8 +23,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="73">
-              <caret line="1142" column="1" lean-forward="true" selection-start-line="1142" selection-start-column="1" selection-end-line="1142" selection-end-column="1" />
+            <state relative-caret-position="17130">
+              <caret line="1142" column="1" selection-start-line="1142" selection-start-column="1" selection-end-line="1142" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -34,8 +32,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/data.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="514" column="60" selection-start-line="514" selection-start-column="60" selection-end-line="514" selection-end-column="60" />
+            <state relative-caret-position="65">
+              <caret line="495" column="7" selection-start-line="495" selection-start-column="7" selection-end-line="495" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -92,8 +90,8 @@
         <option value="$PROJECT_DIR$/js/custom.js" />
         <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="$PROJECT_DIR$/data.json" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/data.json" />
       </list>
     </option>
   </component>
@@ -109,20 +107,7 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="sciencepub-site" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sciencepub-site" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -173,11 +158,13 @@
       <workItem from="1564615824940" duration="12227000" />
       <workItem from="1564668149296" duration="901000" />
       <workItem from="1564695343977" duration="2546000" />
+      <workItem from="1564779733110" duration="95000" />
+      <workItem from="1564958278931" duration="110000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53095000" />
+    <option name="totallyTimeSpent" value="54932000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="708" extended-state="6" />
@@ -195,7 +182,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49733758" weight="0.05882353" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49733758" visible="true" weight="0.52249134" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5026624" side_tool="true" weight="0.2" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -297,27 +284,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="1142" column="1" lean-forward="true" selection-start-line="1142" selection-start-column="1" selection-end-line="1142" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="514" column="60" selection-start-line="514" selection-start-column="60" selection-end-line="514" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -342,6 +308,27 @@
             <element signature="n#style#0;n#a#3;n#p#0;n#div#0;n#li#2;n#ul#0;n#div#0;n#div#1;n#div#0;n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="e#23154#23160#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17130">
+          <caret line="1142" column="1" selection-start-line="1142" selection-start-column="1" selection-end-line="1142" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="495" column="7" selection-start-line="495" selection-start-column="7" selection-end-line="495" selection-end-column="7" />
         </state>
       </provider>
     </entry>

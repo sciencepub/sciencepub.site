@@ -493,9 +493,7 @@
             "title": "Entropia do Universo"
           }
         ]
-      }
-    ],
-    "upcoming": [
+      },
       {
         "title": "SciencePub #28",
         "date": "10/08",
@@ -513,6 +511,28 @@
             "name": "Marcos Benevides",
             "img": "img/speakers/marcos_benevides.jpg",
             "title": "Inteligência artificial e o mundo real"
+          }
+        ]
+      }
+    ],
+    "upcoming": [
+      {
+        "title": "SciencePub #29",
+        "date": "14/09",
+        "venue": "Beer Tap",
+        "city": "São Luís",
+        "state": "MA",
+        "time": "-",
+        "speakers": [
+          {
+            "name": "A definir",
+            "img": "img/speakers/male.jpg",
+            "title": ""
+          },
+          {
+            "name": "A definir",
+            "img": "img/speakers/female.jpg",
+            "title": ""
           }
         ]
       }
