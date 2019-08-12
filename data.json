@@ -526,12 +526,12 @@
         "speakers": [
           {
             "name": "A definir",
-            "img": "img/speakers/male.jpg",
+            "img": "img/speakers/1-male.png",
             "title": ""
           },
           {
             "name": "A definir",
-            "img": "img/speakers/female.jpg",
+            "img": "img/speakers/1-female.png",
             "title": ""
           }
         ]
