@@ -535,6 +535,26 @@
             "title": ""
           }
         ]
+      },
+      {
+        "title": "SciencePub: Edição Especial",
+        "date": "30/10",
+        "venue": "-",
+        "city": "São Luís",
+        "state": "MA",
+        "time": "-",
+        "speakers": [
+          {
+            "name": "A definir",
+            "img": "img/speakers/1-male.png",
+            "title": ""
+          },
+          {
+            "name": "A definir",
+            "img": "img/speakers/1-female.png",
+            "title": ""
+          }
+        ]
       }
     ]
   }
