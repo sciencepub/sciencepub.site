@@ -522,17 +522,17 @@
         "venue": "Beer Tap",
         "city": "São Luís",
         "state": "MA",
-        "time": "-",
+        "time": "16h",
         "speakers": [
           {
-            "name": "A definir",
-            "img": "img/speakers/1-male.png",
-            "title": ""
+            "name": "Adeilton P. Maciel",
+            "img": "img/speakers/adeilton_pereira_maciel.jpg",
+            "title": "Tabela Periódica: 150 anos"
           },
           {
-            "name": "A definir",
-            "img": "img/speakers/1-female.png",
-            "title": ""
+            "name": "Pablo Leite",
+            "img": "img/speakers/pablo_leite.gif",
+            "title": "A Química no seu drink"
           }
         ]
       },
