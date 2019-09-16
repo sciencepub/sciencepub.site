@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f3d2222-bf50-47e0-ac9b-3fbdd6b84d9a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/data.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,26 +28,6 @@
         <option value="JavaScript File" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>url</find>
-      <find>venu</find>
-      <find>venue</find>
-      <find>font-fam</find>
-      <find>suppo</find>
-      <find>nav-</find>
-      <find>.nav-menu</find>
-      <find>logo</find>
-      <find>#logo</find>
-      <find>#na</find>
-      <find>ul .</find>
-      <find>nav-i</find>
-      <find>a</find>
-      <find>a {</find>
-      <find>#faq</find>
-      <find>.txt-link</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -113,7 +95,7 @@
       <workItem from="1566309687507" duration="43000" />
       <workItem from="1568142821860" duration="616000" />
       <workItem from="1568214065046" duration="144000" />
-      <workItem from="1568666304190" duration="252000" />
+      <workItem from="1568666304190" duration="1396000" />
     </task>
     <servers />
   </component>
