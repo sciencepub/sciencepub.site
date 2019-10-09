@@ -567,10 +567,15 @@
 
         events.forEach(function (edition) {
             var speakers = '';
-            var collumSize = "col-md-4";
+            var collumSize = "col-md-2";
 
             if (edition.speakers.length === 1) {
                 collumSize = "col-md-8";
+            }
+
+
+            if (edition.speakers.length === 2) {
+                collumSize = "col-md-4";
             }
 
             if (edition.speakers.length === 0) {

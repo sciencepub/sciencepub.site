@@ -545,19 +545,19 @@
                 "time": "16h",
                 "speakers": [
                     {
-                        "name": "A definir",
-                        "img": "img/speakers/1-male.png",
-                        "title": ""
+                        "name": "Bruno Nogueira Lima",
+                        "img": "img/speakers/bruno_nogueira_lima.jpg",
+                        "title": "Computação Aplicada"
                     },
                     {
-                        "name": "A definir",
+                        "name": "",
                         "img": "img/speakers/1-female.png",
                         "title": ""
                     }
                 ]
             },
             {
-                "title": "SciencePub: Edição Especial",
+                "title": "SciencePub: Ciência e Inovação",
                 "date": "30/10",
                 "venue": "Espaço Black Swan",
                 "city": "São Luís",
@@ -565,12 +565,22 @@
                 "time": "18h30",
                 "speakers": [
                     {
-                        "name": "A definir",
+                        "name": "Lanna Reis",
+                        "img": "img/speakers/lanna-reis.jpg",
+                        "title": "Uma nova conversa sobre Design Thinking: a relação entre experimentação e inovação."
+                    },
+                    {
+                        "name": "",
                         "img": "img/speakers/1-male.png",
                         "title": ""
                     },
                     {
-                        "name": "A definir",
+                        "name": "",
+                        "img": "img/speakers/1-female.png",
+                        "title": ""
+                    },
+                    {
+                        "name": "",
                         "img": "img/speakers/1-female.png",
                         "title": ""
                     }
