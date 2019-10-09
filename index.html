@@ -164,11 +164,11 @@
                     </li>
                 </ul>
                 <div class="tab-content row justify-content-center">
-                    <div role="tabpanel" class="col-lg-9 tab-pane fade" id="pasteditions">
+                    <div role="tabpanel" class="col-lg-12 tab-pane fade container" id="pasteditions">
                     </div>
-                    <div role="tabpanel" class="col-lg-9 tab-pane fade" id="ed-2019">
+                    <div role="tabpanel" class="col-lg-12 tab-pane fade container" id="ed-2019">
                     </div>
-                    <div role="tabpanel" class="col-lg-9 tab-pane fade show active" id="upcoming">
+                    <div role="tabpanel" class="col-lg-12 tab-pane fade container show active" id="upcoming">
                     </div>
                 </div>
         </section>
@@ -577,15 +577,36 @@
 
         events.forEach(function (edition) {
             var speakers = '';
-            var collumSize = "col-md-2";
+            var speakersContent = '';
+            var colHtml = '';
+            var colHtmlClose = '';
+            var collumSize = "col-md-4";
+            var fnCall = function (speaker, index) {
+                speakers += '<div class="' + collumSize + '"><div class="speaker">' +
+                    '<img src="' + speaker.img + '" alt="' + speaker.name + '">' +
+                    '</div><h4>' + speaker.name + '</h4><h6>' + speaker.title + '</h6>' +
+                    '</div>';
+                speakersContent = speakers;
+            };
 
             if (edition.speakers.length === 1) {
                 collumSize = "col-md-8";
             }
 
+            if (edition.speakers.length > 3) {
+                colHtml = '<div class="col">'
+                colHtmlClose = '</div>'            
+                fnCall = function (speaker, index) {
+                    speakers += '<div class="' + 'col-md-6' + '"><div class="speaker">' +
+                        '<img src="' + speaker.img + '" alt="' + speaker.name + '">' +
+                        '</div><h4>' + speaker.name + '</h4><h6>' + speaker.title + '</h6>' +
+                        '</div>';
 
-            if (edition.speakers.length === 2) {
-                collumSize = "col-md-4";
+                    if ((index + 1) % 2 === 0) {
+                        speakersContent += speakersRow(speakers);
+                        speakers = '';
+                    }
+                };
             }
 
             if (edition.speakers.length === 0) {
@@ -600,19 +621,16 @@
                 '<time>' + edition.date + '</time><br>' +
                 '<time>' + edition.time + '</time></div>';
 
-            edition.speakers.forEach(function (speaker) {
-                speakers += '<div class="' + collumSize + '"><div class="speaker">' +
-                    '<img src="' + speaker.img + '" alt="' + speaker.name + '">' +
-                    '</div><h4>' + speaker.name + '</h4><h6>' + speaker.title + '</h6>' +
-                    '</div>'
-            });
-
-            html += speakers;
+            edition.speakers.forEach(fnCall);
+            html += colHtml + speakersContent + colHtmlClose;
             html += '</div>';
         });
 
         return html;
+    }
 
+    function speakersRow(content) {
+        return '<div class="row">' + content + '</div>';
     }
 
     /**
