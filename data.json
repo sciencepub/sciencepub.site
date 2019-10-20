@@ -533,9 +533,7 @@
                         "title": "A Química no seu drink"
                     }
                 ]
-            }
-        ],
-        "upcoming": [
+            },
             {
                 "title": "SciencePub #30",
                 "date": "19/10",
@@ -545,17 +543,19 @@
                 "time": "16h",
                 "speakers": [
                     {
-                        "name": "Bruno Nogueira Lima",
-                        "img": "img/speakers/bruno_nogueira_lima.jpg",
-                        "title": "Computação Aplicada"
+                        "name": "Jackson Ronie",
+                        "img": "img/speakers/jackson_ronie.jpg",
+                        "title": "Ciência é 10!"
                     },
                     {
-                        "name": "Shirley Ribeiro",
-                        "img": "img/speakers/shirley_ribeiro.jpg",
+                        "name": "Adilson Luís Silva",
+                        "img": "img/speakers/adilson_luis_silva.gif",
                         "title": "Ciência é 10!"
                     }
                 ]
-            },
+            }
+        ],
+        "upcoming": [
             {
                 "title": "SciencePub: Ciência e Inovação",
                 "date": "30/10",
@@ -580,9 +580,9 @@
                         "title": "A definir"
                     },
                     {
-                        "name": "",
-                        "img": "img/speakers/1-male.png",
-                        "title": ""
+                        "name": "Davi Telles",
+                        "img": "img/speakers/davi_telles.jpg",
+                        "title": "A definir"
                     }
                 ]
             }
