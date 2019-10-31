@@ -553,9 +553,7 @@
                         "title": "Ciência é 10!"
                     }
                 ]
-            }
-        ],
-        "upcoming": [
+            },
             {
                 "title": "SciencePub: Ciência e Inovação",
                 "date": "30/10",
@@ -583,6 +581,48 @@
                         "name": "Davi Telles",
                         "img": "img/speakers/davi_telles.jpg",
                         "title": "Inovação e agilidade de ecossistemas: para além da tríplice hélice"
+                    }
+                ]
+            }
+        ],
+        "upcoming": [
+            {
+                "title": "SciencePub #31",
+                "date": "Nov/19",
+                "venue": "Beer Tap",
+                "city": "São Luís",
+                "state": "MA",
+                "time": "",
+                "speakers": [
+                    {
+                        "name": "A definir",
+                        "img": "img/speakers/1-female.png",
+                        "title": "A definir"
+                    },
+                    {
+                        "name": "A definir",
+                        "img": "img/speakers/1-male.png",
+                        "title": "A definir"
+                    }
+                ]
+            },
+            {
+                "title": "SciencePub #32",
+                "date": "Dez/19",
+                "venue": "Beer Tap",
+                "city": "São Luís",
+                "state": "MA",
+                "time": "",
+                "speakers": [
+                    {
+                        "name": "A definir",
+                        "img": "img/speakers/1-female.png",
+                        "title": "A definir"
+                    },
+                    {
+                        "name": "A definir",
+                        "img": "img/speakers/1-male.png",
+                        "title": "A definir"
                     }
                 ]
             }
