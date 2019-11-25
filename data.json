@@ -595,14 +595,9 @@
                 "time": "",
                 "speakers": [
                     {
-                        "name": "A definir",
-                        "img": "img/speakers/1-female.png",
-                        "title": "A definir"
-                    },
-                    {
-                        "name": "A definir",
-                        "img": "img/speakers/1-male.png",
-                        "title": "A definir"
+                        "name": "Charles Duarte Almeida",
+                        "img": "charles_duarte_lima.jpg",
+                        "title": "O incrível mundo da geometria fractal"
                     }
                 ]
             },
