@@ -583,9 +583,7 @@
                         "title": "Inovação e agilidade de ecossistemas: para além da tríplice hélice"
                     }
                 ]
-            }
-        ],
-        "upcoming": [
+            },
             {
                 "title": "SciencePub #31",
                 "date": "30/11",
@@ -600,14 +598,16 @@
                         "title": "O incrível mundo da geometria fractal"
                     }
                 ]
-            },
+            }
+        ],
+        "upcoming": [
             {
                 "title": "SciencePub #32",
                 "date": "10/12",
                 "venue": "Beer Tap",
                 "city": "São Luís",
                 "state": "MA",
-                "time": "",
+                "time": "19h",
                 "speakers": [
                     {
                         "name": "A definir",
