@@ -610,14 +610,14 @@
                 "time": "19h",
                 "speakers": [
                     {
-                        "name": "A definir",
-                        "img": "img/speakers/1-female.png",
-                        "title": "A definir"
+                        "name": "Eduarda Froes",
+                        "img": "img/speakers/eduarda_froes.jpeg",
+                        "title": "Explicando a Estatística"
                     },
                     {
-                        "name": "A definir",
-                        "img": "img/speakers/1-male.png",
-                        "title": "A definir"
+                        "name": "Kiany Sirley Brandão Cavalcante",
+                        "img": "img/speakers/kiany_sirley.jpg",
+                        "title": "Crise na Ciências: é preciso reinventar a forma de fazer pesquisa"
                     }
                 ]
             }
