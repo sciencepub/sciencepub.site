@@ -598,9 +598,7 @@
                         "title": "O incrível mundo da geometria fractal"
                     }
                 ]
-            }
-        ],
-        "upcoming": [
+            },
             {
                 "title": "SciencePub #32",
                 "date": "10/12",
@@ -618,6 +616,88 @@
                         "name": "Kiany Sirley Brandão Cavalcante",
                         "img": "img/speakers/kiany_sirley.jpg",
                         "title": "Crise na Ciências: é preciso reinventar a forma de fazer pesquisa"
+                    }
+                ]
+            }
+        ],
+        "upcoming": [
+            {
+                "title": "SciencePub #33",
+                "date": "28/01",
+                "venue": "Beer Tap",
+                "city": "São Luís",
+                "state": "MA",
+                "time": "19h",
+                "speakers": [
+                    {
+                        "name": "A definir",
+                        "img": "img/speakers/1-male.png",
+                        "title": "A definir"
+                    },
+                    {
+                        "name": "A definir",
+                        "img": "img/speakers/1-female.png",
+                        "title": "A definir"
+                    }
+                ]
+            },
+            {
+                "title": "SciencePub: <br> Dia Internacional da Mulher e das Meninas na Ciência",
+                "date": "11/02",
+                "venue": "Beer Tap",
+                "city": "São Luís",
+                "state": "MA",
+                "time": "19h",
+                "speakers": [
+                    {
+                        "name": "A definir",
+                        "img": "img/speakers/1-female.png",
+                        "title": "A definir"
+                    },
+                    {
+                        "name": "A definir",
+                        "img": "img/speakers/1-female.png",
+                        "title": "A definir"
+                    }
+                ]
+            },
+            {
+                "title": "SciencePub <br> Biofísica",
+                "date": "26/05",
+                "venue": "",
+                "city": "São Luís",
+                "state": "MA",
+                "time": "",
+                "speakers": [
+                    {
+                        "name": "A definir",
+                        "img": "img/speakers/1-male.png",
+                        "title": "A definir"
+                    },
+                    {
+                        "name": "A definir",
+                        "img": "img/speakers/1-female.png",
+                        "title": "A definir"
+                    }
+                ]
+            },
+            {
+                "title": "SciencePub <br> Biofísica",
+                "date": "28/05",
+                "venue": "",
+                "city": "São Luís",
+                "state": "MA",
+                "time": "",
+                "speakers": [
+                    {
+                        "name": "A definir",
+                        "img": "img/speakers/1-male.png",
+                        "title": "A definir"
+                    },
+                    {
+                        "name": "A definir",
+                        "img": "img/speakers/1-female.png",
+                        "title": "A definir"
                     }
                 ]
             }
