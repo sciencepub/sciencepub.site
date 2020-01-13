@@ -156,7 +156,7 @@
                         <a class="nav-link" href="#pasteditions" role="tab" data-toggle="tab">Anteriores</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#ed-2019" role="tab" data-toggle="tab">2019</a>
+                        <a class="nav-link" href="#ed-2020" role="tab" data-toggle="tab">2020</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" href="#upcoming" role="tab" data-toggle="tab">Próximas</a>
@@ -165,7 +165,7 @@
                 <div class="tab-content row justify-content-center">
                     <div role="tabpanel" class="col-lg-12 tab-pane fade container" id="pasteditions">
                     </div>
-                    <div role="tabpanel" class="col-lg-12 tab-pane fade container" id="ed-2019">
+                    <div role="tabpanel" class="col-lg-12 tab-pane fade container" id="ed-2020">
                     </div>
                     <div role="tabpanel" class="col-lg-12 tab-pane fade container show active" id="upcoming">
                     </div>
@@ -594,7 +594,7 @@
 
             if (edition.speakers.length > 3) {
                 colHtml = '<div class="col">'
-                colHtmlClose = '</div>'            
+                colHtmlClose = '</div>'
                 fnCall = function (speaker, index) {
                     speakers += '<div class="' + 'col-md-6' + '"><div class="speaker">' +
                         '<img src="' + speaker.img + '" alt="' + speaker.name + '">' +
@@ -643,6 +643,7 @@
         years.push(statsResumed(json.schedule.ed2017));
         years.push(statsResumed(json.schedule.ed2018));
         years.push(statsResumed(json.schedule.ed2019));
+        years.push(statsResumed(json.schedule.ed2020));
 
         var fullStats = {
             editions: years
@@ -660,7 +661,7 @@
         editionsElement = document.getElementById("spEditions");
         citiesElement = document.getElementById("spCities");
         statesElement = document.getElementById("spStates");
-        ed2019 = document.getElementById("ed-2019");
+        ed2020 = document.getElementById("ed-2020");
         past = document.getElementById("pasteditions");
         upcoming = document.getElementById("upcoming");
         editionsDescription = document.getElementById("editions-description");
@@ -674,8 +675,9 @@
             statesElement.innerHTML = [...new Set(json.cities.map(c => c.state))].length;
 
             // Current Year editions
-            ed2019.innerHTML = buildScheduleItens(json.schedule.ed2019);
+            ed2020.innerHTML = buildScheduleItens(json.schedule.ed2020);
 
+            pasthtml += pastEditions(json.schedule.ed2019, 2019);
             pasthtml += pastEditions(json.schedule.ed2018, 2018);
             pasthtml += pastEditions(json.schedule.ed2017, 2017);
             pasthtml += pastEditions(json.schedule.ed2016, 2016);

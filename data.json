@@ -620,6 +620,8 @@
                 ]
             }
         ],
+        "ed2020": [
+        ],
         "upcoming": [
             {
                 "title": "SciencePub #33",
@@ -630,13 +632,13 @@
                 "time": "19h",
                 "speakers": [
                     {
-                        "name": "A definir",
-                        "img": "img/speakers/1-male.png",
+                        "name": "Leandro Franco",
+                        "img": "img/speakers/leandro_franco.jpg",
                         "title": "A definir"
                     },
                     {
-                        "name": "A definir",
-                        "img": "img/speakers/1-female.png",
+                        "name": "Antônio Busson",
+                        "img": "img/speakers/antonio_busson.jpeg",
                         "title": "A definir"
                     }
                 ]
@@ -652,6 +654,46 @@
                     {
                         "name": "A definir",
                         "img": "img/speakers/1-female.png",
+                        "title": "A definir"
+                    },
+                    {
+                        "name": "A definir",
+                        "img": "img/speakers/1-female.png",
+                        "title": "A definir"
+                    }
+                ]
+            },
+            {
+                "title": "SciencePub #34",
+                "date": "07/03",
+                "venue": "Beer Tap",
+                "city": "São Luís",
+                "state": "MA",
+                "time": "17h30",
+                "speakers": [
+                    {
+                        "name": "A definir",
+                        "img": "img/speakers/1-female.png",
+                        "title": "A definir"
+                    },
+                    {
+                        "name": "A definir",
+                        "img": "img/speakers/1-female.png",
+                        "title": "A definir"
+                    }
+                ]
+            },
+            {
+                "title": "SciencePub Imperatriz",
+                "date": "21/03",
+                "venue": "",
+                "city": "Imperatriz",
+                "state": "MA",
+                "time": "",
+                "speakers": [
+                    {
+                        "name": "A definir",
+                        "img": "img/speakers/1-male.png",
                         "title": "A definir"
                     },
                     {
