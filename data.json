@@ -634,12 +634,12 @@
                     {
                         "name": "Leandro Franco",
                         "img": "img/speakers/leandro_franco.jpg",
-                        "title": "A definir"
+                        "title": "Empresas, academia, inovação: uma combinação para o desenvolvimento econômico."
                     },
                     {
                         "name": "Antônio Busson",
                         "img": "img/speakers/antonio_busson.jpeg",
-                        "title": "A definir"
+                        "title": "Deep Learning: Desmistificando a ''Bala de Prata'' da Inteligência Artificial"
                     }
                 ]
             },
@@ -649,6 +649,26 @@
                 "venue": "Beer Tap",
                 "city": "São Luís",
                 "state": "MA",
+                "time": "19h",
+                "speakers": [
+                    {
+                        "name": "A definir",
+                        "img": "img/speakers/1-female.png",
+                        "title": "A definir"
+                    },
+                    {
+                        "name": "A definir",
+                        "img": "img/speakers/1-female.png",
+                        "title": "A definir"
+                    }
+                ]
+            },
+            {
+                "title": "SciencePub: <br> Dia Internacional da Mulher e das Meninas na Ciência",
+                "date": "11/02",
+                "venue": "Lord Beer",
+                "city": "Araranguá",
+                "state": "SC",
                 "time": "19h",
                 "speakers": [
                     {
@@ -686,10 +706,10 @@
             {
                 "title": "SciencePub Imperatriz",
                 "date": "21/03",
-                "venue": "",
+                "venue": "Ritz Restaurante",
                 "city": "Imperatriz",
                 "state": "MA",
-                "time": "",
+                "time": "18h",
                 "speakers": [
                     {
                         "name": "A definir",
