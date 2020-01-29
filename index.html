@@ -91,8 +91,9 @@
             </div>
             <h1 class="mb-4 pb-0">Seu pub mensal sobre
                 <br><span>ciência e tecnologia</span></h1>
-            <h3 style="color: #ffffff;">Próxima edição em <strong>28/01</strong> no
-                <strong>Beer Tap</strong>, São Luís - Maranhão</h3> <a
+            <h3 style="color: #ffffff;">Próximas edições<br>
+                <strong>11/02</strong> - <strong>Beer Tap</strong>, São Luís - Maranhão <br>
+                <strong>11/02</strong> - <strong>Lord Beer</strong>, Araranguá - Santa Catarina</h3> <a
                 href="https://www.youtube.com/watch?v=eAK5UzAOJ60" class="venobox play-btn mb-4" data-vbtype="video"
                 data-autoplay="true"></a>
             <a href="#about" class="about-btn scrollto">Descubra mais</a>
@@ -667,9 +668,23 @@
         var pasthtml = '';
 
         $.getJSON("data.json").done(function (json) {
-            editionsElement.innerHTML = json.cities
-                .map(c => c.editions)
-                .reduce((c, e) => c + e, 0);
+            var years = []
+            years.push(statsResumed(json.schedule.ed2016));
+            years.push(statsResumed(json.schedule.ed2017));
+            years.push(statsResumed(json.schedule.ed2018));
+            years.push(statsResumed(json.schedule.ed2019));
+            years.push(statsResumed(json.schedule.ed2020));
+
+            var fullStats = {
+                editions: years
+                    .map(c => c.editions)
+                    .reduce((c, e) => c + e, 0),
+                speakers: years
+                    .map(c => c.speakers)
+                    .reduce((c, e) => c + e, 0)
+            };
+
+            editionsElement.innerHTML = fullStats.editions.toString();
             citiesElement.innerHTML = json.cities.length;
             statesElement.innerHTML = [...new Set(json.cities.map(c => c.state))].length;
 

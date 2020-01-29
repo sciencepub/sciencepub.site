@@ -3,7 +3,7 @@
         {
             "name": "São Luís",
             "state": "Maranhão",
-            "editions": 31
+            "editions": 32
         },
         {
             "name": "Florianópolis",
@@ -621,8 +621,6 @@
             }
         ],
         "ed2020": [
-        ],
-        "upcoming": [
             {
                 "title": "SciencePub #33",
                 "date": "28/01",
@@ -642,7 +640,9 @@
                         "title": "Deep Learning: Desmistificando a ''Bala de Prata'' da Inteligência Artificial"
                     }
                 ]
-            },
+            }
+        ],
+        "upcoming": [
             {
                 "title": "SciencePub: <br> Dia Internacional da Mulher e das Meninas na Ciência",
                 "date": "11/02",
@@ -652,14 +652,14 @@
                 "time": "19h",
                 "speakers": [
                     {
-                        "name": "A definir",
-                        "img": "img/speakers/1-female.png",
-                        "title": "A definir"
+                        "name": "Ana Rita Nunes",
+                        "img": "img/speakers/ana_rita_nunes.gif",
+                        "title": "Ciência, substantivo feminino: Os desafios da mulher na pesquisa de tubarões e raias"
                     },
                     {
-                        "name": "A definir",
-                        "img": "img/speakers/1-female.png",
-                        "title": "A definir"
+                        "name": "Katia de La Salles",
+                        "img": "img/speakers/katia_de_la_salles.gif",
+                        "title": "Mulheres na ciência: por que ainda somos tão poucas?"
                     }
                 ]
             },
@@ -672,14 +672,14 @@
                 "time": "19h",
                 "speakers": [
                     {
-                        "name": "A definir",
-                        "img": "img/speakers/1-female.png",
-                        "title": "A definir"
+                        "name": "Cristina Spolti Lorenzetti",
+                        "img": "img/speakers/cristina-spolti-lorenzetti.jpeg",
+                        "title": "IFScience: divulgação científica em pauta"
                     },
                     {
-                        "name": "A definir",
-                        "img": "img/speakers/1-female.png",
-                        "title": "A definir"
+                        "name": "Juliana Drewke",
+                        "img": "img/speakers/juliana-drewke.jpeg",
+                        "title": "Visibilidade da mulher na arte"
                     }
                 ]
             },
