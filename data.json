@@ -3,10 +3,15 @@
         {
             "name": "São Luís",
             "state": "Maranhão",
-            "editions": 32
+            "editions": 35
         },
         {
             "name": "Florianópolis",
+            "state": "Santa Catarina",
+            "editions": 1
+        },
+        {
+            "name": "Araranguá",
             "state": "Santa Catarina",
             "editions": 1
         }
@@ -640,9 +645,7 @@
                         "title": "Deep Learning: Desmistificando a ''Bala de Prata'' da Inteligência Artificial"
                     }
                 ]
-            }
-        ],
-        "upcoming": [
+            },
             {
                 "title": "SciencePub: <br> Dia Internacional da Mulher e das Meninas na Ciência",
                 "date": "11/02",
@@ -682,7 +685,9 @@
                         "title": "Visibilidade da mulher na arte"
                     }
                 ]
-            },
+            }
+        ],
+        "upcoming": [
             {
                 "title": "SciencePub #34",
                 "date": "07/03",
@@ -726,26 +731,6 @@
             {
                 "title": "SciencePub <br> Biofísica",
                 "date": "26/05",
-                "venue": "",
-                "city": "São Luís",
-                "state": "MA",
-                "time": "",
-                "speakers": [
-                    {
-                        "name": "A definir",
-                        "img": "img/speakers/1-male.png",
-                        "title": "A definir"
-                    },
-                    {
-                        "name": "A definir",
-                        "img": "img/speakers/1-female.png",
-                        "title": "A definir"
-                    }
-                ]
-            },
-            {
-                "title": "SciencePub <br> Biofísica",
-                "date": "28/05",
                 "venue": "",
                 "city": "São Luís",
                 "state": "MA",
