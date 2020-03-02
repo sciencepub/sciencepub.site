@@ -694,17 +694,32 @@
                 "venue": "Beer Tap",
                 "city": "São Luís",
                 "state": "MA",
-                "time": "17h30",
+                "time": "17h",
                 "speakers": [
                     {
-                        "name": "A definir",
-                        "img": "img/speakers/1-female.png",
+                        "name": "Áurea Celeste da Costa Ribeiro",
+                        "img": "img/speakers/aurea_celeste_ribeiro.gif",
                         "title": "A definir"
+                    }
+                ]
+            },
+            {
+                "title": "SciencePub Araranguá",
+                "date": "08/03",
+                "venue": "Lord Beer",
+                "city": "Araranguá",
+                "state": "SC",
+                "time": "18h",
+                "speakers": [
+                    {
+                        "name": "Aline Coêlho dos Santos",
+                        "img": "img/speakers/aline-coelho-dos-sanots.jpg",
+                        "title": "Espaço Cientíze: Uma rede de professores (formadores) que buscam ser inspiração."
                     },
                     {
-                        "name": "A definir",
-                        "img": "img/speakers/1-female.png",
-                        "title": "A definir"
+                        "name": "Ana Paula Ramos",
+                        "img": "img/speakers/ana_paula_ramos.jpeg",
+                        "title": "Transitando nas fronteiras culturais"
                     }
                 ]
             },
@@ -718,7 +733,7 @@
                 "speakers": [
                     {
                         "name": "A definir",
-                        "img": "img/speakers/1-male.png",
+                        "img": "img/speakers/1-female.png",
                         "title": "A definir"
                     },
                     {
