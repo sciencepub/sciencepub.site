@@ -3,7 +3,7 @@
         {
             "name": "São Luís",
             "state": "Maranhão",
-            "editions": 35
+            "editions": 36
         },
         {
             "name": "Florianópolis",
@@ -685,9 +685,7 @@
                         "title": "Visibilidade da mulher na arte"
                     }
                 ]
-            }
-        ],
-        "upcoming": [
+            },
             {
                 "title": "SciencePub #34",
                 "date": "07/03",
@@ -702,9 +700,11 @@
                         "title": "O que os sinais que o corpo emite e suas medidas podem falar sobre seu estado de saúde?"
                     }
                 ]
-            },
+            }
+        ],
+        "upcoming": [
             {
-                "title": "SciencePub Araranguá",
+                "title": "SciencePub Araranguá #2",
                 "date": "08/03",
                 "venue": "Lord Beer",
                 "city": "Araranguá",
