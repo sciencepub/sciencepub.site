@@ -700,9 +700,7 @@
                         "title": "O que os sinais que o corpo emite e suas medidas podem falar sobre seu estado de saúde?"
                     }
                 ]
-            }
-        ],
-        "upcoming": [
+            },
             {
                 "title": "SciencePub Araranguá #2",
                 "date": "08/03",
@@ -722,7 +720,9 @@
                         "title": "Transitando nas fronteiras culturais"
                     }
                 ]
-            },
+            }
+        ],
+        "upcoming": [
             {
                 "title": "SciencePub Imperatriz",
                 "date": "21/03",
