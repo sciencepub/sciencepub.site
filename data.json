@@ -729,37 +729,12 @@
                 "venue": "Ritz Restaurante",
                 "city": "Imperatriz",
                 "state": "MA",
-                "time": "18h",
+                "time": "19h",
                 "speakers": [
                     {
-                        "name": "A definir",
-                        "img": "img/speakers/1-female.png",
-                        "title": "A definir"
-                    },
-                    {
-                        "name": "A definir",
-                        "img": "img/speakers/1-female.png",
-                        "title": "A definir"
-                    }
-                ]
-            },
-            {
-                "title": "SciencePub <br> Biofísica",
-                "date": "26/05",
-                "venue": "",
-                "city": "São Luís",
-                "state": "MA",
-                "time": "",
-                "speakers": [
-                    {
-                        "name": "A definir",
-                        "img": "img/speakers/1-male.png",
-                        "title": "A definir"
-                    },
-                    {
-                        "name": "A definir",
-                        "img": "img/speakers/1-female.png",
-                        "title": "A definir"
+                        "name": "Fernando Magalhães",
+                        "img": "img/speakers/fernando_magalhaes.gif",
+                        "title": "O papel da Ciência na construção do Conhecimento"
                     }
                 ]
             }
