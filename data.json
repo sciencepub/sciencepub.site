@@ -739,5 +739,123 @@
                 ]
             }
         ]
+    },
+    "virtual_schedule": {
+        "youtube": [
+            {
+                "title": "A pandemia da COVID-19",
+                "date": "08/04/2020",
+                "platform": "YouTube",
+                "link": "https://www.youtube.com/watch?v=VycfKQMZ2eY",
+                "time": "19h",
+                "speakers": [
+                    {
+                        "name": "Roger Flores Ceccon",
+                        "img": "img/speakers/roger_flores_ceccon.jpg"
+                    }
+                ],
+                "hosts": [
+                    {
+                        "name": "Lucas Vieira",
+                        "img": "img/speakers/fernando_magalhaes.gif"
+                    },
+                    {
+                        "name": "Olívia Souza",
+                        "img": "img/speakers/fernando_magalhaes.gif"
+                    }
+                ]
+            },
+            {
+                "title": "Astronomia e História: Collegio Astronomico Camillo Flammarion",
+                "date": "08/05/2020",
+                "platform": "YouTube",
+                "link": "https://www.youtube.com/watch?v=9uuSIBJN1XU",
+                "time": "19h",
+                "speakers": [
+                    {
+                        "name": "Wendell Monteiro",
+                        "img": "img/speakers/wendell_monteiro.jpg"
+                    }
+                ],
+                "hosts": [
+                    {
+                        "name": "Lucas Vieira",
+                        "img": "img/team/lucas_vieira.jpg"
+                    }
+                ]
+            },
+            {
+                "title": "Alcântara: A história inspirada na História",
+                "date": "09/05/2020",
+                "platform": "YouTube",
+                "link": "https://www.youtube.com/watch?v=SEP7WBHvjxc",
+                "time": "19h",
+                "speakers": [
+                    {
+                        "name": "Miriam Rezende Gonçalves",
+                        "img": "img/speakers/miriam_rezende_goncalves.jpg"
+                    }
+                ],
+                "hosts": [
+                    {
+                        "name": "Lucas Vieira",
+                        "img": "img/team/lucas_vieira.jpg"
+                    }
+                ]
+            }
+        ],
+        "instagram": [],
+        "upcoming": [
+            {
+                "title": "Quem mexeu na minha fatia da STEM?<br> O que a pesquisa científica nos conta sobre as mulheres (IN)VISÍVEIS nas hard sciences",
+                "date": "03/07/2020",
+                "link": null,
+                "platform": "Instagram",
+                "time": "19h",
+                "speakers": [
+                    {
+                        "name": "Salete Farias",
+                        "img": "img/speakers/salete_farias.jpg"
+                    }
+                ],
+                "hosts": [
+                    {
+                        "name": "Olívia Souza",
+                        "img": "img/speakers/fernando_magalhaes.gif"
+                    }
+                ]
+            },
+            {
+                "title": "I Encontro Maranhense de Física",
+                "date": "06/07/2020",
+                "platform": "YouTube",
+                "link": "https://www.youtube.com/watch?v=8JADOkC3LvU",
+                "time": "19h30",
+                "speakers": [
+                    {
+                        "name": "Edvan Moreira",
+                        "img": "img/speakers/edvan_moreira.jpg"
+                    },
+                    {
+                        "name": "Fernando Moucherek",
+                        "img": "img/speakers/fernando_moucherek.jpg"
+                    },
+                    {
+                        "name": "Eduardo Diniz",
+                        "img": "img/speakers/eduardo_diniz.jpg"
+                    },
+                    {
+                        "name": "Samir Silva Coutinho",
+                        "img": "img/speakers/samir_silva_coutinho.jpg"
+                    }
+                ],
+                "hosts": [
+                    {
+                        "name": "Lucas Vieira",
+                        "img": "img/team/lucas_vieira.jpg"
+                    }
+                ]
+            }
+        ]
     }
 }

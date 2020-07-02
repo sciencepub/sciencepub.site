@@ -47,6 +47,18 @@ h6 {
     color: #0e1b4d;
 }
 
+h6 a,
+h6 a:hover,
+h6 a:active,
+h6 a:focus,
+h6 a:visited {
+    font-family: "Aller", sans-serif;
+    font-weight: 400;
+    margin: 0 0 20px 0;
+    padding: 0;
+    color: #0e1b4d;
+}
+
 .main-page {
     margin-top: 70px;
 }
