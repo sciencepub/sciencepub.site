@@ -802,28 +802,6 @@
                         "img": "img/team/lucas_vieira.jpg"
                     }
                 ]
-            }
-        ],
-        "instagram": [],
-        "upcoming": [
-            {
-                "title": "Quem mexeu na minha fatia da STEM?<br> O que a pesquisa científica nos conta sobre as mulheres (IN)VISÍVEIS nas hard sciences",
-                "date": "03/07/2020",
-                "link": null,
-                "platform": "Instagram",
-                "time": "19h",
-                "speakers": [
-                    {
-                        "name": "Salete Farias",
-                        "img": "img/speakers/salete_farias.jpg"
-                    }
-                ],
-                "hosts": [
-                    {
-                        "name": "Olívia Souza",
-                        "img": "img/speakers/fernando_magalhaes.gif"
-                    }
-                ]
             },
             {
                 "title": "I Encontro Maranhense de Física",
@@ -847,6 +825,52 @@
                     {
                         "name": "Samir Silva Coutinho",
                         "img": "img/speakers/samir_silva_coutinho.jpg"
+                    }
+                ],
+                "hosts": [
+                    {
+                        "name": "Lucas Vieira",
+                        "img": "img/team/lucas_vieira.jpg"
+                    }
+                ]
+            }
+        ],
+        "instagram": [
+            {
+                "title": "Quem mexeu na minha fatia da STEM?<br> O que a pesquisa científica nos conta sobre as mulheres (IN)VISÍVEIS nas hard sciences",
+                "date": "03/07/2020",
+                "link": null,
+                "platform": "Instagram",
+                "time": "19h",
+                "speakers": [
+                    {
+                        "name": "Salete Farias",
+                        "img": "img/speakers/salete_farias.jpg"
+                    }
+                ],
+                "hosts": [
+                    {
+                        "name": "Olívia Souza",
+                        "img": "img/speakers/fernando_magalhaes.gif"
+                    }
+                ]
+            }
+        ],
+        "upcoming": [
+            {
+                "title": "Biofísica",
+                "date": "16/07/2020",
+                "platform": "YouTube",
+                "link": "#",
+                "time": "19h30",
+                "speakers": [
+                    {
+                        "name": "Luciana Magalhães",
+                        "img": "img/speakers/luciana_magalhaes.jpeg"
+                    },
+                    {
+                        "name": "Leandro Barbosa",
+                        "img": "img/speakers/leandro_barbosa.gif"
                     }
                 ],
                 "hosts": [
