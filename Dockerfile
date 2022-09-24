@@ -6,7 +6,7 @@ RUN chmod -R a+w /var/cache/nginx \
     && rm /etc/nginx/conf.d/* 
 
 COPY sciencepub.conf /etc/nginx/conf.d/
-COPY . /usr/share/nginx/html/
+COPY ./ /usr/share/nginx/html/
 RUN chmod -R a+r /usr/share/nginx/html/
 EXPOSE 8080
 USER nginx
